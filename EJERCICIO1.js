@@ -5,14 +5,10 @@
 //     `nums = [6, 6, 0, 1, 8, 4, 2, 9]`
 
 
-
 let nums = [6, 6, 0, 1, 8, 4, 2, 9];
-let conts = 0;
 
-do {
-    console.log(conts + 1, "(", nums[conts], ")", conts);
-    conts++;
+let i = 0;
+for (i; i < nums.length; i++) {
+
 }
-while (conts < nums.length);
-
-console.log("EL TAMAÑO DEL ARREGLO ES " + conts + "unidades");
+console.log("EL NUMERO ES " + i);
